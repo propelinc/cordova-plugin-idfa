@@ -46,7 +46,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
 
-        <dependency id="cordova-support-android-plugin" version="~1.0.0"/>
+        <dependency id="cordova-support-android-plugin" url="https://github.com/propelinc/cordova-support-android-plugin" commit="3a5242ab09e1bebe8dd29be4a9997396571bf70f"/>
         <dependency id="cordova-support-google-services" version="~1.2.0"/>
 
         <framework src="com.google.android.gms:play-services-ads:$GOOGLE_SERVICES_VERSION" />
